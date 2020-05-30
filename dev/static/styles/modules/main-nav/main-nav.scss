@@ -1,0 +1,11 @@
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list__item {
+  margin-left: 30px;
+}
+.nav-list__link {
+  font-family: 'latosemibold';
+  font-size: 16px;
+}

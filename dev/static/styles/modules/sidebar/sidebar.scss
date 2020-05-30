@@ -1,0 +1,52 @@
+.sidebar {
+  width: 20%;
+}
+.sidebar-form__item {
+  margin-bottom: 35px;
+}
+.sidebar-form-title {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+.sidebar-form-input-wrapp {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  input[type="checkbox"] {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  label {
+    position: relative;
+    padding-left: 30px;
+  }
+}
+input[type="checkbox"] + label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #E1E1E1;
+}
+input[type="checkbox"]:checked + label::before {
+  content: "\2714";
+  text-align: center;
+  color: #1A212F;
+}
+.sidebar-form-input-wrapp-price {
+  display: flex;
+  justify-content: space-between;
+  input {
+    width: 100px;
+    height: 24px;
+    display: block;
+    border: 1px solid #E1E1E1;
+    padding: 0 5px;
+  }
+}

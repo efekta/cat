@@ -1,0 +1,21 @@
+.page-content-wrap {
+  display: flex;
+}
+.page-content {
+  width: 80%;
+  margin-left: auto;
+}
+.title {
+  margin: 3rem 0;
+  font-family: 'rubikbold', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #151B28;
+}
+.hotel-room {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
