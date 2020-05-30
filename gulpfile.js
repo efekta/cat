@@ -19,10 +19,10 @@ $.gulp.task('dev', $.gulp.series(
         'pug',
         'fonts',
         'styles:dev',
-        'img:dev',
-        'libsJS:dev',
-        'js:dev',
-        'svg'
+        'img:dev'
+        // 'libsJS:dev',
+        // 'js:dev'
+        // 'svg'
     )
 ));
 
@@ -31,11 +31,11 @@ $.gulp.task('build', $.gulp.series(
     $.gulp.parallel(
         'pug',
         'fonts',
-        'styles:build',
-        'img:build',
-        'libsJS:build',
-        'js:build',
-        'svg'
+        'styles:build'
+        // 'img:build',
+        // 'libsJS:build',
+        // 'js:build'
+        // 'svg'
     )
 ));
 
@@ -45,11 +45,11 @@ $.gulp.task('build-min', $.gulp.series(
     $.gulp.parallel(
         'pug',
         'fonts',
-        'styles:build-min',
-        'img:build',
-        'libsJS:build',
-        'js:build-min',
-        'svg'
+        'styles:build-min'
+        // 'img:build',
+        // 'libsJS:build',
+        // 'js:build-min',
+        // 'svg'
     )
 ));
 
