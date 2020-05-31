@@ -670,7 +670,6 @@ input[type="checkbox"]:checked + label::before {
 .hotel-room-pic {
   width: 100%;
   max-width: 100%;
-  max-height: 182px;
 }
 
 .hotel-room-content {
