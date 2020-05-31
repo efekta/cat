@@ -83,9 +83,12 @@ a {
   height: 100%;
 }
 
-.content { flex: 1 0 auto; }
+.content {
+  flex: 1 0 auto;
+}
 
 .container {
+  position: relative;
   margin: 0 auto;
   max-width: $content-size;
   width: 100%;
