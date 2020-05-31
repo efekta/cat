@@ -1,5 +1,8 @@
 .hotel-room__item
-    img.hotel-room-pic(src="static/images/content/cat-1.jpg" alt="pic")
+    picture.hotel-room-picture
+        //source(srcset="static/images/content/cat-1.webp 1x" media=("max-width: 1024px"))
+        source(type="image/webp" srcset="static/images/content/cat-1.webp 1x, static/images/content/cat-1@2x.webp 2x")
+        img.hotel-room-pic(srcset="static/images/content/cat-1@2x.jpg 2x" src="static/images/content/cat-1.jpg" alt="cat")
     .hotel-room-content
         h2.hotel-room-title Эконом
         p.hotel-room-content__item

@@ -437,6 +437,10 @@ img {
   display: block;
 }
 
+picture {
+  display: block;
+}
+
 input,
 button,
 textarea,
