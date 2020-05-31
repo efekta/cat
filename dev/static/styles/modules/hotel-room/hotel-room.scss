@@ -5,7 +5,11 @@
   border-radius: 10px;
   overflow: hidden;
 }
-
+.hotel-room-pic {
+  width: 100%;
+  max-width: 100%;
+  max-height: 182px;
+}
 .hotel-room-content {
   padding: 25px 20px 30px 20px;
 }
