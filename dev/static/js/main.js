@@ -1,5 +1,17 @@
 $(document).ready(function () {
     svg4everybody({});
+
+    /*========================
+ fixed header
+ =======================*/
+    $(window).scroll(function() {
+        if($(this).scrollTop() >= 250) {
+            $('.header').addClass('header__fixed');
+        }
+        else{
+            $('.header').removeClass('header__fixed');
+        }
+    });
 });
 
 

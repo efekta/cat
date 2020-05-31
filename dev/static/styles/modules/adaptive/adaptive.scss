@@ -1,0 +1,38 @@
+@media(max-width: 1200px) {
+  .container {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  //sidebar
+  .sidebar-form-input-wrapp-price {
+    flex-wrap: wrap;
+    input {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  }
+}
+
+
+@media(max-width: 1024px) {
+  .title {
+    font-size: 28px;
+    margin: 1.5rem 0;
+  }
+  .hotel-room__item {
+    width: 47%;
+  }
+}
+
+@media(max-width: 768px) {
+  .title {
+    font-size: 24px;
+    margin: 1.3rem 0;
+  }
+  .hotel-room__item {
+    width: 100%;
+    margin-left: 0;
+  }
+}

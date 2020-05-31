@@ -53,11 +53,12 @@
   justify-content: center;
   width: 100%;
   min-height: 46px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   background: #FF7236;
   border-radius: 25px;
   color: #fff;
   margin-top: 20px;
+  transition: all .3s;
   &:hover {
     box-shadow: none;
     background: #F05B1B;
