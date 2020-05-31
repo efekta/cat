@@ -8,4 +8,7 @@
 .nav-list__link {
   font-family: 'latosemibold';
   font-size: 16px;
+  &:hover {
+    text-decoration: underline;
+  }
 }

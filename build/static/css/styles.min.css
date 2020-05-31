@@ -472,6 +472,8 @@ section {
 
 a {
   cursor: pointer;
+  text-decoration: none;
+  color: #1a212f;
 }
 
 .wrapper {
@@ -529,6 +531,9 @@ a {
 .nav-list__link {
   font-family: "latosemibold";
   font-size: 16px;
+}
+.nav-list__link:hover {
+  text-decoration: underline;
 }
 
 .sidebar {
@@ -762,6 +767,12 @@ input[type="checkbox"]:checked + label::before {
   .title {
     font-size: 24px;
     margin: 1.3rem 0;
+  }
+  .sidebar {
+    width: 30%;
+  }
+  .page-content {
+    width: 65%;
   }
   .hotel-room__item {
     width: 100%;
