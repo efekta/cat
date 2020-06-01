@@ -48,6 +48,10 @@ input[type="checkbox"]:checked + label::before {
     display: block;
     border: 1px solid #E1E1E1;
     padding: 0 5px;
+    transition: all .3s ease-in-out;
+    &:hover {
+      border-color: #777;
+    }
   }
 }
 .sidebar-form-btn {

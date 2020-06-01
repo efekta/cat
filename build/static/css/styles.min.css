@@ -609,6 +609,10 @@ input[type="checkbox"]:checked + label::before {
   display: block;
   border: 1px solid #e1e1e1;
   padding: 0 5px;
+  transition: all .3s ease-in-out;
+}
+.sidebar-form-input-wrapp-price input:hover {
+  border-color: #777777;
 }
 
 .sidebar-form-btn {
